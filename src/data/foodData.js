@@ -1,11 +1,16 @@
- const foods = [
+import burger from '../assets/background-images/burger.png'
+import coffee from '../assets/background-images/coffee.png'
+import pizza from '../assets/background-images/pizza.png'
+import shaurma from '../assets/background-images/shaurma.png'
+
+const foods = [
 	{
 		id: 1,
 		title: 'Dairy Queen',
 		paragraph: 'Dairy Queen is one of the biggest fast-food.',
 		oldPrice: 6,
 		newPrice: 4,
-		backgroundImage: '/src/assets/background-images/coffee.png',
+		backgroundImage: coffee,
 	},
 	{
 		id: 2,
@@ -13,7 +18,7 @@
 		paragraph: 'Although the Pizza Hut Menu Prices .',
 		oldPrice: 7,
 		newPrice: 3,
-		backgroundImage: '/src/assets/background-images/pizza.png',
+		backgroundImage: pizza,
 	},
 	{
 		id: 3,
@@ -21,7 +26,7 @@
 		paragraph: 'Together with McDonald’s, Burger King.',
 		oldPrice: 6,
 		newPrice: 5,
-		backgroundImage: '/src/assets/background-images/burger.png',
+		backgroundImage: burger,
 	},
 	{
 		id: 4,
@@ -29,7 +34,7 @@
 		paragraph: 'Papa John’s is one of the most popular fast-food.',
 		oldPrice: 8,
 		newPrice: 6,
-		backgroundImage: '/src/assets/background-images/shaurma.png',
+		backgroundImage: shaurma,
 	},
 ]
 
