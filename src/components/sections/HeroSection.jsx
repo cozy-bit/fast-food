@@ -4,11 +4,11 @@ import Button from '../ui/Button'
 export default function Hero() {
 	return (
 		<>
-			<section className='relative bg-[#1c0d0d] overflow-hidden'>
+			<section className='group relative bg-[#1c0d0d] overflow-hidden'>
 				<img
 					src={heroBurger}
 					alt=''
-					className='absolute inset-0 w-full h-full object-cover'
+					className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105'
 				/>
 				<div className='relative max-w-300 mx-auto px-4 py-44 flex flex-col items-start gap-5 text-white'>
 					<span className='text-sm font-medium tracking-[1.4px]'>
