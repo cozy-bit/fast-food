@@ -3,6 +3,38 @@ import coffee from '../assets/background-images/coffee.png'
 import pizza from '../assets/background-images/pizza.png'
 import shaurma from '../assets/background-images/shaurma.png'
 
+import chickenPaella from '../assets/images/categories/chicken-paella.png'
+import tacoDelMar from '../assets/images/categories/taco-del-mar.png'
+import bonAuPain from '../assets/images/categories/bon-au-pain.png'
+import pizzaHut from '../assets/images/categories/pizza-hut.png'
+
+export const categories = [
+	{
+		id: 1,
+		title: 'Chicken Paella',
+		description: "We just don't make and sell food.Good food warms.",
+		image: chickenPaella,
+	},
+	{
+		id: 2,
+		title: 'Taco Del Mar',
+		description: 'Taco Del Mar brings the best out of Mexican cuisine with fresh.',
+		image: tacoDelMar,
+	},
+	{
+		id: 3,
+		title: 'Bon Au Pain',
+		description: 'Bon Au Pain is a pioneer in the healthy fast food scene.',
+		image: bonAuPain,
+	},
+	{
+		id: 4,
+		title: 'Pizza Hut.',
+		description: 'Although the Pizza Hut Menu Prices have tumbled over the years.',
+		image: pizzaHut,
+	},
+]
+
 const foods = [
 	{
 		id: 1,
