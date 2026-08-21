@@ -17,7 +17,7 @@ export default function FoodCategories() {
 									className='w-full h-44 object-cover transition-transform duration-300 group-hover:scale-110'
 								/>
 							</div>
-							<div className='p-5 flex flex-col items-center gap-2 text-white'>
+							<div className='p-5 flex flex-col items-center text-center gap-2 text-white'>
 								<h3 className='w-full text-[20px] font-medium transition-colors duration-300 group-hover:text-[#F6762C]'>
 									{category.title}
 								</h3>

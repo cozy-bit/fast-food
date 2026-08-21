@@ -11,7 +11,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="w-full  border-b border-white/5 sticky top-0 z-50">
+    <header className="w-full bg-[#121212]/70 backdrop-blur-xl border-b border-white/5 fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         {/* лого */}
         <a href="#" className="flex items-center gap-2">

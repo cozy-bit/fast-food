@@ -24,8 +24,8 @@ export default function OffersGrid() {
 								<p className='text-[16px] font-normal'>{food.paragraph}</p>
 								<div className='flex  gap-2 items-end text-[#F6762C] font-medium'>
 									<span className='text-[20px]'>${food.newPrice}</span>
-									<span className='text-[16px] line-through'>
-										${food.newPrice}
+									<span className='text-[#F6762C]/70 text-[16px] line-through'>
+										${food.oldPrice}
 									</span>
 								</div>
 								<Button />
